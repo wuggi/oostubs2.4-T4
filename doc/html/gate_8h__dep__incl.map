@@ -1,0 +1,16 @@
+<map id="include/guard/gate.h" name="include/guard/gate.h">
+<area shape="rect" id="node3" href="$curskbd_8h.html" title="include/device/curskbd.h" alt="" coords="169,86,340,117"/>
+<area shape="rect" id="node13" href="$device_2panic_8h.html" title="include/device/panic.h" alt="" coords="589,86,744,117"/>
+<area shape="rect" id="node22" href="$watch_8h.html" title="include/device/watch.h" alt="" coords="768,86,925,117"/>
+<area shape="rect" id="node27" href="$machine_2plugbox_8h.html" title="include/machine/plugbox.h" alt="" coords="384,86,565,117"/>
+<area shape="rect" id="node5" href="$keyboard_8h.html" title="include/useful/keyboard.h" alt="" coords="5,166,179,197"/>
+<area shape="rect" id="node9" href="$curskbd_8cc.html" title="src/device/curskbd.cc" alt="" coords="168,246,320,277"/>
+<area shape="rect" id="node11" href="$main_8cc.html" title="src/main.cc" alt="" coords="512,166,603,197"/>
+<area shape="rect" id="node7" href="$task4_8cc.html" title="src/user/task4.cc" alt="" coords="21,246,144,277"/>
+<area shape="rect" id="node15" href="$useful_2panic_8h.html" title="include/useful/panic.h" alt="" coords="627,166,776,197"/>
+<area shape="rect" id="node19" href="$panic_8cc.html" title="src/device/panic.cc" alt="" coords="800,166,939,197"/>
+<area shape="rect" id="node17" href="$plugbox_8cc.html" title="src/machine/plugbox.cc" alt="" coords="569,246,732,277"/>
+<area shape="rect" id="node24" href="$watch_8cc.html" title="src/device/watch.cc" alt="" coords="963,166,1104,197"/>
+<area shape="rect" id="node29" href="$useful_2plugbox_8h.html" title="include/useful/plugbox.h" alt="" coords="272,166,437,197"/>
+<area shape="rect" id="node32" href="$guardian_8cc.html" title="interrupt handler function " alt="" coords="344,246,496,277"/>
+</map>

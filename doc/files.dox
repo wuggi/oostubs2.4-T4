@@ -1,0 +1,129 @@
+/** \file src/main.cc
+ * 
+ * \~german
+ * \brief Grunddatei von OOStuBS
+ * 
+ * Diese Datei enthält die globalen Variablen und zusätzlich den Einsprungspunkt in das
+ * Betriebssystem (\ref kernel).
+ * 
+ * \~english
+ * \brief 
+ * 
+ */ 
+
+/** \file src/internal/boot.cc
+ * 
+ * \~german
+ * \brief enthält Start-Code
+ * 
+ * 
+ * \~english
+ * \brief startup code
+ * 
+ */ 
+
+
+/** \file src/guard/guardian.cc
+ * 
+ * \~german
+ * \brief Interrupt-Behandlungsfunktionen
+ * 
+ * 
+ * 
+ * \~english
+ * \brief interrupt handler function
+ * 
+ * 
+ */ 
+ 
+/** \file src/object/o_stream.cc
+ * 
+ * \~german
+ * \brief 
+ * 
+ * 
+ * 
+ * \~english
+ * \brief 
+ * 
+ * 
+ */ 
+ 
+/** \file src/object/strbuf.cc
+ * 
+ * \~german
+ * \brief 
+ * 
+ * 
+ * 
+ * \~english
+ * \brief 
+ * 
+ * 
+ */ 
+
+/** \file include/machine/key.h
+ * 
+ * \~german
+ * \brief 
+ * 
+ * 
+ * 
+ * \~english
+ * \brief 
+ * 
+ * 
+ */ 
+
+/** \file include/object/o_stream.h
+ * 
+ * \~german
+ * \brief 
+ * 
+ * 
+ * 
+ * \~english
+ * \brief 
+ * 
+ * 
+ */ 
+
+/** \file include/object/strbuf.h
+ * 
+ * \~german
+ * \brief 
+ * 
+ * 
+ * 
+ * \~english
+ * \brief 
+ * 
+ * 
+ */ 
+
+/** \file include/useful/cpu.h
+ * 
+ * \~german
+ * \brief alles notwendige zum nutzen der in main.cc deklarierten globalen Variable \ref cpu
+ * 
+ * \~english
+ * \brief help include file for use of global declared variable \ref cpu, declared in main.cc
+ */ 
+
+/** \file include/useful/kout.h
+ * 
+ * \~german
+ * \brief alles notwendige zum nutzen der in main.cc deklarierten globalen Variable \ref kout
+ * 
+ * \~english
+ * \brief help include file for use of global declared variable \ref kout, declared in main.cc
+ */ 
+
+/** \file include/user/appl.h
+ * 
+ * \~german
+ * \brief Grundklasse für Anwendungen, für die einzelnen Aufgaben benötigt
+ * 
+ * \~english
+ * \brief declaration of basic class for application of the tasks
+ */ 

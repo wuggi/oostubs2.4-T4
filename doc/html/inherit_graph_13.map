@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classCurses__Screen.html" title="Curses&#45;Display driver. " alt="" coords="141,5,256,35"/>
+<area shape="rect" id="node3" href="$classCurses__Stream.html" title="Curses based output mechanism, similar to cout. " alt="" coords="304,31,419,62"/>
+<area shape="rect" id="node4" href="$classStringbuffer.html" title="Buffer containing text to output. " alt="" coords="5,58,93,89"/>
+<area shape="rect" id="node6" href="$classO__Stream.html" title="Manipulation class providing formatted output support. " alt="" coords="157,58,240,89"/>
+</map>
