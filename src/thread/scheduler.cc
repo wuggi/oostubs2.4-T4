@@ -20,38 +20,33 @@
 void Scheduler::schedule(Thread& first){
     if(!active())
     {
-        if(first)
-        {
             this->go(first);
-        }
+
     }
 
 }
 
 /**\~english \todo implement**/
 void Scheduler::ready(Thread& that){
-
-   threads.push_back(that);
+    Thread* thread = &that;
+   threads.push_back(thread);
 }
 
 /**\~english \todo implement**/
 void Scheduler::exit(){
-    Thread* thread = (Thread*)threads.deque;
-    if(thread)
-    {
-        dispatch(thread);
-    }
+    Thread* thread = threads.pop_front();
+    dispatch(*thread);
 }
 
 /**\~english \todo implement**/
 void Scheduler::kill(Thread& that){
 
-    threads.erase(that);
+    threads.erase();
 }
 
 /**\~english \todo implement**/
 void Scheduler::resume(){
-    Thread* thread = (Thread*)threads.deque;
+    Thread* thread = threads.deque;
     if(thread)
     {
         threads.push_back((Thread*)active());
