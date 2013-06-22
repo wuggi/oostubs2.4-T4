@@ -29,7 +29,8 @@ Thread::~Thread(){
 }
 
 /**\~english \todo implement**/
-void Thread::resume(){
+void Thread::resume(Thread& next){
+
 }
 
 /**\~english \todo implement**/
