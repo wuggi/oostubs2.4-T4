@@ -31,7 +31,6 @@ class Dispatcher {
 private:
   /** \brief The currently active thread
    *  \todo define variable**/
-    Thread* thread;
   
 
 public:
